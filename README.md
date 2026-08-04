@@ -1,4 +1,4 @@
-## 📋 Description & Functionality
+##  Description & Functionality
 
 The project consists of a low-power impact and vibration detector optimized for monitoring the security of fixed structures (doors, windows, display cases).
 
@@ -15,7 +15,7 @@ The project consists of a low-power impact and vibration detector optimized for 
 
 ---
 
-## 📐 Technological Parameters & Design Rules (DRC)
+##  Technological Parameters & Design Rules (DRC)
 
 * **PCB Stackup:** Double-Sided PCB using FR-4 substrate (0.203 mm dielectric layer, 0.263 mm total thickness).
 * **Board Dimensions:** Rectangular shape, fixed at 70mm x 55mm.
