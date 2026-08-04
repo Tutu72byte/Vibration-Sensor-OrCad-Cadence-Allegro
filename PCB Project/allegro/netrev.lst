@@ -1,0 +1,93 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : VIBRATION_SENSOR_FINAL.brd                    )
+(    Software Version : 16.6-2015S059                                 )
+(    Date/Time        : Mon Jun 01 10:20:32 2026                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\PROIECT_TIE\allegro'
+Design Directory:            '.'
+Old design name:             'C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd'
+New design name:             'C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd'
+
+CmdLine: netrev.exe -y 1 -n -u -i C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\PROIECT_TIE\allegro C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\PROIECT_TIE\allegro\VIBRATION_SENSOR_FINAL.brd C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\PROIECT_TIE\allegro\VIBRATION_SENSOR_FINAL.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstchip.dat 
+   Finished reading C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstxprt.dat 
+   Finished reading C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstxnet.dat 
+   Finished reading C:/ORCAD/ORCAD_16.6_LITE/TOOLS/CAPTURE/PROIECT_TIE/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+Note: SECTION property definition created
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/OrCAD/OrCAD_16.6_Lite/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/OrCAD/OrCAD_16.6_Lite/share/local/pcb/symbols 
+           C:/OrCAD/OrCAD_16.6_Lite/share/pcb/pcb_lib/symbols 
+           C:/OrCAD/OrCAD_16.6_Lite/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/OrCAD/OrCAD_16.6_Lite/share/local/pcb/padstacks 
+           C:/OrCAD/OrCAD_16.6_Lite/share/pcb/pcb_lib/symbols 
+           C:/OrCAD/OrCAD_16.6_Lite/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 1 10:20:32 2026
+   DESIGN NAME : 'VIBRATION_SENSOR_FINAL'
+   PACKAGING ON Aug  3 2015 18:16:55
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:30
+elapsed time  0:00:00
+

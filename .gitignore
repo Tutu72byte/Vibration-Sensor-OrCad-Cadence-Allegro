@@ -1,0 +1,23 @@
+# --- OrCAD Capture / Schematics ---
+*.opj.pref
+*.DBK
+*.BK*
+*.obk
+
+# --- Allegro PCB Editor Temp & Log Files ---
+*.log
+*.jrl
+*.tag
+*.sav
+*.drc
+*.art.log
+signoise.run/
+pcb_stat.txt
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+PROIECT_TIE_Vibration_Sensor.pdf
+PROIECT_TIE_Vibration_Sensor.docx

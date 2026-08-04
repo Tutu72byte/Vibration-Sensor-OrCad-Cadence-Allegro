@@ -1,0 +1,198 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001May-28-2026 at 16:25:46}
+primitive 'BATTERY_0_JUMPER2_3V';
+  pin
+    '+':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='BATTERY_0';
+    JEDEC_TYPE='jumper2';
+    VALUE='3V';
+  end_body;
+end_primitive;
+primitive 'CAP NP_CAP400_100NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='cap400';
+    VALUE='100nF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_CAP600_47UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL';
+    JEDEC_TYPE='cap600';
+    VALUE='47uF';
+  end_body;
+end_primitive;
+primitive 'M74HC123_1_DIP16_3_M74HC123';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'PIEZO_IN':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'CLR':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    'OUT':
+      PIN_NUMBER='(13)';
+      OUTPUT_LOAD='(*)';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '3V':
+      PIN_NUMBER='(16)';
+      PINUSE='POWER';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='M74HC123_1';
+    JEDEC_TYPE='dip16_3';
+    VALUE='M74HC123';
+  end_body;
+end_primitive;
+primitive 'CON2_JUMPER2_CON2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON2';
+    JEDEC_TYPE='jumper2';
+    VALUE='CON2';
+  end_body;
+end_primitive;
+primitive 'PIEZO_SENSOR_0_JUMPER2_PIEZO_SE';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      OUTPUT_LOAD='(*)';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='PIEZO_SENSOR_0';
+    JEDEC_TYPE='jumper2';
+    VALUE='PIEZO_SENSOR';
+  end_body;
+end_primitive;
+primitive 'R_RES500_4M7';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res500';
+    VALUE='4M7';
+  end_body;
+end_primitive;
+primitive 'R_RES400_100K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='100K';
+  end_body;
+end_primitive;
+primitive 'R_RES400_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='res400';
+    VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'NPN BCE_TO5_BC547';
+  pin
+    'B':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='NPN BCE';
+    JEDEC_TYPE='to5';
+    VALUE='BC547';
+  end_body;
+end_primitive;
+END.

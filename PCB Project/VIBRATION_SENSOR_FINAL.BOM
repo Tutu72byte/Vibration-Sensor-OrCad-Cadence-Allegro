@@ -1,0 +1,25 @@
+  Revised: Monday, June 01, 2026
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials           June 1,2026      10:18:45	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	BT1	3V
+2	1	C1	100nF
+3	1	C2	47uF
+4	1	IC1	M74HC123
+5	1	J1	CON2
+6	1	Q1	PIEZO_SENSOR
+7	2	R1	4M7
+		R2	4M7
+8	1	R3	100K
+9	1	R4	10K
+10	1	T1	BC547

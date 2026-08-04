@@ -1,0 +1,120 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001May-27-2026 at 12:05:57 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='VIBRATION_SENSOR_FINAL';
+ POST_TIME='Aug  3 2015 18:16:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BT1 'BATTERY_0_JUMPER2_3V':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS505@VIBRATION_SENSOR_FINAL.BATTERY_0.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins505@vibration_sensor_final.\battery_0.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins505@vibration_sensor_final.\battery_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C1 'CAP NP_CAP400_100NF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS426@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins426@discrete.\cap np.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins426@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP POL_CAP600_47UF':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS451@DISCRETE.CAP POL.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins451@discrete.\cap pol.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins451@discrete.\cap pol.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC1 'M74HC123_0_DIP16_3_M74HC123':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS220@VIBRATION_SENSOR_FINAL.M74HC123_0.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins220@vibration_sensor_final.\m74hc123_0.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins220@vibration_sensor_final.\m74hc123_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON2_JUMPER2_CON2':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS530@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins530@connector.\con2.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins530@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ Q1 'PIEZO_SENSOR_0_JUMPER2_PIEZO_SE':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS299@VIBRATION_SENSOR_FINAL.PIEZO_SENSOR_0.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins299@vibration_sensor_final.\piezo_sensor_0.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins299@vibration_sensor_final.\piezo_sensor_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_RES500_4M7':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS353@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins353@discrete.\r.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins353@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_RES500_4M7':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS369@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins369@discrete.\r.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins369@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'R_RES400_100K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS385@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins385@discrete.\r.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins385@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'R_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS401@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins401@discrete.\r.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins401@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T1 'NPN BCE_TO5_BC547':;
+
+SECTION_NUMBER 1
+ '@VIBRATION_SENSOR_FINAL.SCHEMATIC1(SCH_1):INS478@TRANSISTOR.NPN BCE.NORMAL(CHIPS)':
+ C_PATH='@vibration_sensor_final.schematic1(sch_1):ins478@transistor.\npn bce.normal\(chips)',
+ P_PATH='@vibration_sensor_final.schematic1(sch_1):page1_ins478@transistor.\npn bce.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

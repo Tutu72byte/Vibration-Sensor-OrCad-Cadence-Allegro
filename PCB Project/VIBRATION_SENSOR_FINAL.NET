@@ -1,0 +1,77 @@
+Wire List
+
+                                              Revised: Monday, June 01, 2026
+C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\PROIECTRevision: 
+
+
+
+
+
+
+<<< Component List >>>
+3V                            BT1       jumper2
+100nF                         C1        cap400
+47uF                          C2        cap600
+M74HC123                      IC1       dip16_3
+CON2                          J1        jumper2
+PIEZO_SENSOR                  Q1        jumper2
+4M7                           R1        res500
+4M7                           R2        res500
+100K                          R3        res400
+10K                           R4        res400
+BC547                         T1        to5
+
+<<< Wire List >>>
+
+  NODE  REFERENCE    PIN #   PIN NAME           PIN TYPE       PART VALUE
+
+[00001] GND
+        IC1             1       1               Power          M74HC123
+        IC1             8       8               Power          M74HC123
+        IC1             9       9               Power          M74HC123
+        IC1             10      10              Power          M74HC123
+        IC1             11      11              Power          M74HC123
+        Q1              2       2               Passive        PIEZO_SENSOR
+        R2              2       2               Passive        4M7
+        C1              2       2               Passive        100nF
+        T1              3       E               Passive        BC547
+        BT1             2       -               Power          3V
+        J1              2       2               Passive        CON2
+
+[00002] N00546
+        IC1             15      15              Power          M74HC123
+        R3              1       1               Passive        100K
+        C2              1       1               Passive        47uF
+
+[00003] N00550
+        IC1             14      14              Power          M74HC123
+        C2              2       2               Passive        47uF
+
+[00004] N00559
+        IC1             3       clr             Passive        M74HC123
+        IC1             16      3V              Power          M74HC123
+        R3              2       2               Passive        100K
+        C1              1       1               Passive        100nF
+        BT1             1       +               Power          3V
+
+[00005] N00589
+        IC1             13      out             Output         M74HC123
+        R4              1       1               Passive        10K
+
+[00006] N00593
+        R4              2       2               Passive        10K
+        T1              1       B               Input          BC547
+
+[00007] N00597
+        T1              2       C               Output         BC547
+        J1              1       1               Passive        CON2
+
+[00008] N00616
+        R1              2       2               Passive        4M7
+        R2              1       1               Passive        4M7
+
+[00009] N00664
+        IC1             2       piezo_in        Input          M74HC123
+        Q1              1       1               Output         PIEZO_SENSOR
+        R1              1       1               Passive        4M7
+

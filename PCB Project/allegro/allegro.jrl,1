@@ -1,0 +1,28 @@
+\t (00:00:03) allegro 16.6-2015 S059 (v16-6-112ER) Windows 32
+\t (00:00:03)     Journal start - Fri Jun 05 01:19:45 2026
+\t (00:00:03)         Host=DESKTOP-PCTAAKQ User=Laptop Pid=28372 CPUs=12
+\t (00:00:03) CmdLine= C:\OrCAD\OrCAD_16.6_Lite\tools\pcb\bin\allegro.exe -orcad
+\t (00:00:03) 
+\t (00:00:03) Opening existing design...
+\d (00:00:03) Design opened: C:/OrCAD/OrCAD_16.6_Lite/tools/capture/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd
+\i (00:00:04) trapsize 277
+\i (00:00:04) trapsize 271
+\i (00:00:04) trapsize 278
+\i (00:00:04) trapsize 285
+\i (00:00:04) trapsize 285
+\i (00:00:05) generaledit 
+\i (00:00:08) nctape_full 
+\i (00:00:22) setwindow form.nc_drill
+\i (00:00:22) FORM nc_drill parameters  
+\i (00:00:32) setwindow form.nc_parameters
+\i (00:00:32) FORM nc_parameters cancel  
+\i (00:00:37) setwindow form.nc_drill
+\i (00:00:37) FORM nc_drill execute  
+\t (00:00:37) Starting Generating NC Drill...
+\i (00:01:21) FORM nc_drill cancel  
+\i (00:01:21) setwindow pcb
+\i (00:01:21) generaledit 
+\i (00:01:22) exit 
+\e (00:01:22) Do you want to save the changes you made to VIBRATION_SENSOR_FINAL.brd?
+\i (00:01:27) fillin no 
+\t (00:01:27)     Journal end - Fri Jun 05 01:21:09 2026

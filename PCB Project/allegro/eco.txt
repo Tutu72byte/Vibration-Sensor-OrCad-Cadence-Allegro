@@ -1,0 +1,125 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd          |
+|                                                    Mon Jun 01 10:20:32 2026  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 BT1.2          C1.2           IC1.1          
+                                 IC1.8          IC1.9          IC1.10         
+                                 IC1.11         J1.2           Q1.2           
+                                 R2.2           T1.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00546       pins ADDED TO this new net
+                                 C2.1           IC1.15         R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00550       pins ADDED TO this new net
+                                 C2.2           IC1.14         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00559       pins ADDED TO this new net
+                                 BT1.1          C1.1           IC1.3          
+                                 IC1.16         R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00589       pins ADDED TO this new net
+                                 IC1.13         R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00593       pins ADDED TO this new net
+                                 R4.2           T1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00597       pins ADDED TO this new net
+                                 J1.1           T1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00616       pins ADDED TO this new net
+                                 R1.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00664       pins ADDED TO this new net
+                                 IC1.2          Q1.1           R1.1           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd          |
+|                                                    Mon Jun 01 10:20:32 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BATTERY_1_JUMPER2_3V
+ CAP NP_CAP400_100NF
+ CAP POL_CAP600_47UF
+ CON2_JUMPER2_CON2
+ M74HC123_3_DIP16_3_M74HC123
+ NPN BCE_0_TO5_BC547
+ PIEZO_SENSOR_2_JUMPER2_PIEZO_SE
+ R_RES400_100K
+ R_RES400_10K
+ R_RES500_4M7
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd          |
+|                                                    Mon Jun 01 10:20:32 2026  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1                 BATTERY_1_JUMPER2_3V  
+ C1                  CAP NP_CAP400_100NF   
+ C2                  CAP POL_CAP600_47UF   
+ IC1                 M74HC123_3_DIP16_3_M74HC123 
+ J1                  CON2_JUMPER2_CON2     
+ Q1                  PIEZO_SENSOR_2_JUMPER2_PIEZO_SE 
+ R1                  R_RES500_4M7          
+ R2                  R_RES500_4M7          
+ R3                  R_RES400_100K         
+ R4                  R_RES400_10K          
+ T1                  NPN BCE_0_TO5_BC547   
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../TOOLS/CAPTURE/PROIECT_TIE/allegro/VIBRATION_SENSOR_FINAL.brd          |
+|                                                    Mon Jun 01 10:20:32 2026  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BT1.2                          PRIM_FILE      .\pstchip.dat
+ BT1.2                          SECTION        
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           SECTION        
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           SECTION        
+ IC1.2                          PRIM_FILE      .\pstchip.dat
+ IC1.2                          SECTION        
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J1.2                           SECTION        
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           SECTION        
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           SECTION        
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           SECTION        
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           SECTION        
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           SECTION        
+ T1.3                           PRIM_FILE      .\pstchip.dat
+ T1.3                           SECTION        
+|------------------------------------------------------------------------------|
+|       Nets changed          :      32                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      11                                        |
+|       Slot property added   :      22                                        |
+|                                                                              |
+|   Total ECO changes reported:      75                                        |
+|------------------------------------------------------------------------------|
